@@ -11,11 +11,6 @@ html{
     font-family: 'Poppins', 'Times New Roman', Times, serif ;
     scroll-behavior: smooth;
 }
-
-a{
-    text-decoration: none;
-    color: white;
-}
 img{
     height: 100%;
     width: 100%;
@@ -27,7 +22,7 @@ p {
     line-height: 2.5rem;
     font-weight: 200;
     letter-spacing: 0.05rem;
-}
+}   
 .container{
     min-height: 100vh;
     width: 100%;
@@ -165,6 +160,9 @@ p {
     background-image: linear-gradient(60deg, #5a10b5 0%, #002349 100%);
     color: white;
 }
+a {
+    color: white;
+}
 
 #portfolio .project-info h1{
     font-size: 4rem;
@@ -175,6 +173,7 @@ p {
     font-size: 1.8rem;
     font-weight: 500;
     margin-top: 10px;
+    text-decoration:none;
 }
 
 #portfolio .project-img {
